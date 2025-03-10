@@ -5,11 +5,13 @@ class Category {
   final String? title;
   final String? imgURL;
   final List<Product>? products;
+  final String? H;
 
-  const Category({
-     this.products,
-     this.id,
-     this.title,
-     this.imgURL,
+  const Category(
+    this.H, {
+    this.products,
+    this.id,
+    this.title,
+    this.imgURL,
   });
 }
